@@ -32,7 +32,18 @@ Laravel project dependencies are managed through the PHP Composer tool. The firs
 composer install
 ```
 
-#### 4. Create Database
+#### 4. Yarn install 
+To install frontend dependency libraries
+
+```
+# Install node_modules libs
+yarn
+
+# Build
+yarn prod
+```
+
+#### 5. Create Database
 Update your *.env* with your own database connection, sample as below
 
 ```
@@ -44,7 +55,7 @@ DB_USERNAME=root
 DB_PASSWORD=123456
 ```
 
-#### 5. Artisan Commands
+#### 6. Artisan Commands
 
 ```
 php artisan key:generate
@@ -54,13 +65,19 @@ php artisan migrate
 php artisan db:seed
 ```
 
-#### 6. Storage:link
+#### 7. Storage:link
 
 ```
 php artisan storage:link
 ```
 
-#### 7. Login
+#### 8. Start Server
+
+```
+php artisan serve
+```
+
+#### 9. Login
 
 The administrator credentials are:
 
