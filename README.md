@@ -14,6 +14,10 @@ Inherit from Laravel Boilerplate at [laravel-boilerplate/tree/v7.2.5](https://gi
 #### 1. Download
 Download the files above and place on your server.
 
+```
+git clone git@github.com:mikenk2010/laravel-challege.git
+```
+
 #### 2. Environment Files
 This package ships with a *.env.example* file in the root of the project.
 
@@ -29,6 +33,7 @@ composer install
 ```
 
 #### 4. Create Database
+Update your *.env* with your own database connection, sample as below
 
 ```
 DB_CONNECTION=mysql
