@@ -86,10 +86,12 @@ Password: secret
 - [ ] Admin: Approve Loan
 
 ### Tests
-- [ ] Unit Test For User Loan
-- [ ] Unit Test For Admin Loan
-- [ ] Feature Test for User Loan
-- [ ] Feature Test for Admin Loan 
+- [x] Unit Test For User Loan
+- [x] Unit Test For Admin Loan
+- [x] Feature Test for User Loan
+- [x] Feature Test for Admin Loan 
+
+![Test Result](https://i.imgur.com/nCUtY2R.png)
 
 ## Screenshots
 - User: Loan Management
